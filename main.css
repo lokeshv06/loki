@@ -1,0 +1,502 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+nav{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 90px 10px 10px;
+}
+.furniro a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nav-div-1{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.nav-ul-2 {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+
+}
+.nav-ul-2 a:hover{
+    border-bottom: 3px solid;
+}
+.nav-ul-2 a{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+}
+.nav-ul-2 a{
+    text-decoration: none;
+}
+.nav-div-3{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+.sec-1{
+    background-image: url(./pexels-pixabay-271816.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 57rem;
+    position: relative;
+    width: 100%;
+
+}
+.new-arrival{
+    font-family: Arial, Helvetica, sans-serif, Helvetica, sans-serif;
+    letter-spacing: 5px;
+}
+.dis-our{
+    font-size: 35px;
+    font-weight: bold;
+    color: #b98e2e;
+    letter-spacing: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;','Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.buy-now{
+    border: none;
+    background-color: #b98e2e;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px 20px;
+}
+.aleart{
+    background-color: #fff3e3;
+    max-width: max-content;
+    padding: 40px 40px 20px 20px;
+    position: absolute;
+    top: 30%;
+    right: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.sec-2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+    margin-top: 50px;
+}
+.browse{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sec-2-imgs{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.sec-2-img-1,.sec-2-img-2,.sec-2-img-3{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 400px;
+    gap: 1rem;
+}
+.img-1-dining{
+   background-image: url(./pexels-athena-2962140.jpg);
+   background-size: cover;
+   height: 100%;
+   width: 100%;
+}
+.img-2-living{
+    background-image: url(./pexels-beyza-t-59969189-7992450.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.img-3-bed{
+    background-image: url(./pexels-almira-262757642-15915807.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.live,.bed,.dining{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.sec-3{
+    padding-top: 30px;
+}
+.our-product{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sec-3-1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    background-color: #e2e2e3;
+}
+.sec-3-img-1{
+    background-image: url(./pexels-athena-2962140.jpg);
+    background-size: cover;
+    height: 350px;
+    width: 100%;
+}
+.sec-3-img-1:hover{
+    opacity: 0.5;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    padding-left: 18px;
+    gap: 7px;
+    padding-bottom: 30px;
+}
+.name{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.stylish{
+    font-size: 16px;
+    color: gray;
+}
+.rs{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.grid-item-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 20px;
+    padding:  30px 100px;
+}
+.show-more-but{
+    color: #b98e2e;
+    border: none;
+    background-color: white;
+    border: 2px solid #b98e2e;
+    padding: 10px 40px;
+}
+.show{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: rem;
+    margin-top: 3rem;
+    padding: 50px 100px 50px 80px;
+
+}
+.informations{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.address{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.furniro{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.de-address{
+    font-size: 16px;
+    color: gray;
+}
+.footer-ul-1,.footer-ul-2{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.footer-ul-1 a,.footer-ul-2 a{
+    text-decoration: none;
+    align-self: start;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-div-1{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.input{
+    border: none;
+    border-bottom: 1.8px solid gray;
+    padding: 3px;
+}
+.in-sub{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.sub{
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    border-bottom: 1.8px solid gray;
+}
+.line
+{
+    background-color: #b98e2e;
+    height: 1.5px;
+    margin-bottom: 20px;
+}
+.last{
+    margin-top: 30px;
+}
+.sec-4{
+    display: flex;
+    align-items: center;
+    padding: 30px 50px 20px 70px;
+    gap: 2rem;
+}
+.message{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.beauty{
+    font-size: 30px;
+    font-weight: bold;
+}
+.explore{
+    background-color: #b98e2e;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+}
+.sec-4-img{
+    height: 600px;
+    width: 800px;
+    background-size: cover;
+    background-image: url(./pexels-leah-newhouse-50725-6480707.jpg);
+}
+.slide{
+    background-image: url(./pexels-beyza-t-59969189-7992450.jpg);
+    height: 600px;
+    width: 200px;
+    
+}
+.sec-5{
+    padding: 50px 80px;
+}
+.your{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.fun{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.sec-5-grid{
+    display: grid;
+    grid-template-columns: 0.3fr 0.2fr 1fr 1fr 0.3fr 0.2fr 0.3fr 0.2fr;
+    grid-template-rows: 0.2fr 0.1fr 0.8fr 0.8fr 0.5fr  0.4fr 0.5fr  0.2fr 0.1fr;
+    gap: 0.5rem;
+}
+.img-1{
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-column-end: 2;
+    grid-row-end: 5;
+    background-image: url(./pexels-athena-2962140.jpg);
+    background-size: cover;
+}
+.img-2{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    grid-column-end: 4;
+    grid-row-end: 5;
+    background-size: cover;
+    background-image: url(./pexels-subham-majumder-1992868-3614082.jpg);
+}
+.img-3{
+    grid-column-start: 1;
+    grid-row-start: 5;
+    grid-column-end: 3;
+    grid-row-end:9;
+    background-size: cover;
+    background-image: url(./pexels-athena-2962140.jpg);
+}
+.img-4{
+    grid-column-start: 3;
+    grid-row-start: 5;
+    grid-column-end: 4;
+    grid-row-end: 8;
+    background-size: cover;
+    background-image: url(./pexels-beyza-t-59969189-7992450.jpg);
+}
+.img-5{
+    grid-column-start: 4;
+    grid-row-start: 4;
+    grid-column-end: 5;
+    grid-row-end: 7;
+    background-size: cover;
+    background-image: url(./pexels-athena-2962140.jpg);
+}
+.img-6{
+    grid-column-start: 5;
+    grid-row-start: 3;
+    grid-column-end: 8;
+    grid-row-end: 6;
+    background-size: cover;
+    background-image: url(./pexels-beyza-t-59969189-7992450.jpg);
+}.img-7{
+    grid-column-start: 8;
+    grid-row-start: 1;
+    grid-column-end: 9;
+    grid-row-end: 6;
+    background-size: cover;
+    background-image: url(./pexels-athena-2962140.jpg);
+}
+.img-8{
+    grid-column-start: 5;
+    grid-row-start: 6;
+    grid-column-end: 7;
+    grid-row-end: 9;
+    height: 200px;
+    background-size: cover;
+    background-image: url(./pexels-beyza-t-59969189-7992450.jpg);
+}
+.img-9{
+    grid-column-start: 7;
+    grid-row-start: 6;
+    grid-column-end: 9;
+    grid-row-end: 8;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-image: url(./pexels-athena-2962140.jpg);
+}
+
+@media only screen and (max-width:1496px){
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 5rem;
+    }
+    .nav-ul-2 {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        gap: 4rem;
+    
+    }
+    .nav-div-3{
+        display: flex;
+        align-items: center;
+        gap: 4rem;
+    }
+    .sec-1{
+        background-size: cover;
+        height: 37rem;
+        position: relative;
+        width: 100%;
+    }
+}
+@media only screen and (max-width:1100px){
+    .nav{
+        padding: 10px 20px;
+    }
+    .nav-ul-2 {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+    
+    }
+    .nav-div-3{
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+    }
+    .grid-item-1{
+        padding: 10px 50px;
+    }
+    .sec-3-img-1{
+        height: 250px;
+        
+    }
+    .sec-1{
+        background-size: cover;
+        height: 37rem;
+        position: relative;
+        width: 100%;
+    }
+    .informations{
+        display: flex;
+        
+    
+    }
+    footer{
+        display: flex;
+        padding: 30px 60px;
+    
+    }
+}
+@media only screen and (max-width:850px){
+    .sec-1{
+        background-size: cover;
+        height: 37rem;
+        position: relative;
+        width: 100%;
+    }
+}
+@media only screen and (max-width:850px){
+    .nav-ul-2 {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+    
+    }
+    .sec-1{
+        background-size: cover;
+        height: 37rem;
+        position: relative;
+        width: 100%;
+    }
+    .nav-div-3{
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+    }
+    .grid-item-1{
+        padding: 10px 30px;
+    }
+}
